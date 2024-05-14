@@ -1,6 +1,6 @@
 [
   {
-    "text": "hi",
+    "text": "test",
     "liked": false,
     "replies": [],
     "createComment": false,
@@ -9,8 +9,17 @@
     "picture": "guest"
   },
   {
+    "text": "hi",
+    "liked": true,
+    "replies": [],
+    "createComment": false,
+    "timestamp": "May 13, 2024",
+    "username": "Guest",
+    "picture": "guest"
+  },
+  {
     "text": "With the current market volatility, I'm exploring more into crypto. It's a high-risk, high-reward scenario, but diversification is key.",
-    "liked": false,
+    "liked": true,
     "createComment": false,
     "timestamp": "Mar 16, 2024",
     "username": "Marcus Holloway",
