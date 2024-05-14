@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Install
 
 on:
   push:
@@ -15,5 +15,7 @@ jobs:
         with:
           node-version: '20.7.0'
           cache: 'npm'
-      - name: Install Extension dependencies
+      - name: Install dependencies
+        run: npm ci
+      - name: Install client and server dependencies
         run: npm run install
